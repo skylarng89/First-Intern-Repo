@@ -1,12 +1,107 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600");
 
 body {
-  font-family: Poppins, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  position: absolute;
+  background: #ffffff;
+}
+
+.top-border {
+  width: 100%;
+  height: 15px;
+
+  background: #1da1f2;
+}
+
+#header {
+  width: 293px;
+  height: 579px;
+}
+
+.passport {
+  /* width: 100px;
+  height: 100px; */
+}
+
+.passport img {
+  width: 100px;
+  height: 100px;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  border-radius: 50%;
+}
+
+.author-bio {
+  width: 245px;
+  height: 87px;
+}
+
+.author-name {
+  width: 129px;
+  height: 27px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: normal;
+
+  color: #131313;
+}
+
+.tagline {
+  width: 245px;
+  height: 40px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.5;
-  color: #1b1b1b;
-  font-weight: 400;
-  margin: 0;
+  line-height: normal;
+
+  color: #131313;
+}
+
+.side-menu {
+  width: 150px;
+  height: 130px;
+}
+
+.menu-links {
+  list-style: none;
+  list-style-type: none;
   padding: 0;
+  margin: 0;
+}
+
+.menu-links li a {
+  width: 150px;
+  height: 30px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: normal;
+
+  color: #55b8f5;
+  text-decoration: none;
+}
+.menu-links li a:hover {
+  color: #131313;
+}
+
+.menu-links li a:active {
+  color: #131313;
+}
+
+social-icons {
+  width: 108px;
+  height: 32px;
+}
+
+.fab fa-facebook-square {
+  width: 32px;
+  height: 32px;
 }
